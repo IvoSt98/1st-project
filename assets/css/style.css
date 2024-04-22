@@ -18,6 +18,9 @@ font-family: 'Lato', sans-serif;
 /*Header*/
 header{
     background-color: rgb(255, 0, 21);
+    h1{
+        font-family:'Oswald' , sans-serif;
+    }
 }
 /*Main*/
 main{
