@@ -23,13 +23,16 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
     h1{
         font-family:'Oswald' , sans-serif;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: -2px;
         color: #252525;
     }
-}
 header a{
     text-decoration: none;
     color:inherit ;
@@ -54,12 +57,24 @@ nav{
     padding:0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top:100%;
+}
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    font-size: 2rem;
 }
 /*Main*/
 main{
     background-color: brown;
     /*Make my element take up any surplus to push footer down*/
     flex:1 0 auto;
+    margin-top: 40px;
 }
 /*Footer*/
 footer{
