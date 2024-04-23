@@ -77,8 +77,17 @@ main{
     margin-top: 40px;
 }
 /*Footer*/
-footer{
-    background-color: green;
+#social-network{
+    text-align: center;
+    padding:20px 0;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
+#social-network i{
+    font-size: 150%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 /* Media query:tablets and larger(768px and up) */
 @media screen and (min-width: 768px) {
